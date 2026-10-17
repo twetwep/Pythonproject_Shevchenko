@@ -15,7 +15,9 @@ while type(y) != float:
     except ValueError:
         print ("Введена неправильная координата: ")
         y = input("Введите координату y: ")
-
-first_or_third = (x > 0 and y > 0) or (x < 0 and y < 0)
-
-print("Точка лежит в первой или третьей четверти: ", first_or_third)
+if(x > 0 and y > 0):
+    print("True")
+elif(x < 0 and y < 0):
+    print("True")
+else:
+    print("False")
