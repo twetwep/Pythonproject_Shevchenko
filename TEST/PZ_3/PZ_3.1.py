@@ -16,6 +16,6 @@ while type(y) != float:
         print ("Введена неправильная координата: ")
         y = input("Введите координату y: ")
 
-first_third = (x > 0 and y > 0) or (x < 0 and y < 0)
+first_or_third = (x > 0 and y > 0) or (x < 0 and y < 0)
 
-print("Точка лежит в первой или третьей четверти: ", first_third)
+print("Точка лежит в первой или третьей четверти: ", first_or_third)

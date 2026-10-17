@@ -23,4 +23,4 @@ elif k == 6:
 elif k == 7:
     print("воскресенье")
 else:
-    print("ошибка")
+    print("Ошибка")
