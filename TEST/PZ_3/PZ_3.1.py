@@ -15,6 +15,7 @@ while type(y) != float:
     except ValueError:
         print ("Введена неправильная координата: ")
         y = input("Введите координату y: ")
+
 if(x > 0 and y > 0):
     print("True")
 elif(x < 0 and y < 0):
